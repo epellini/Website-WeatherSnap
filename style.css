@@ -45,7 +45,7 @@ h1{
 }
 
 .search-box input{
-    color: #0b3550;
+    color: #2b5d7c;
     width: 80%;
     font-size: 24px;
     font-weight: 400;
@@ -56,7 +56,7 @@ h1{
 .search-box input::placeholder{
     font-size: 20px;
     font-weight: 500;
-    color: #06283D;
+    color: #2b5d7c;
     text-transform: capitalize;
 }
 
@@ -64,7 +64,7 @@ h1{
     cursor: pointer;
     width: 50px;
     height: 50px;
-    color: #06283D;
+    color: #2b5d7c;
     background: #dff6ff;
     border-radius: 50%;
     font-size: 22px;
@@ -73,12 +73,12 @@ h1{
 
 .search-box button:hover{
     color: #fff;
-    background: #06283D;
+    background: #2b5d7c;
 }
 
 .search-box i{
     position: absolute;
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 28px;
 }
 
@@ -93,7 +93,7 @@ h1{
 
 .weather-box .temperature{
     position: relative;
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 4rem;
     font-weight: 800;
     margin-top: 30px;
@@ -107,15 +107,16 @@ h1{
 }
 
 .weather-box .description{
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
 }
 
 .weather-box .city-country{
-    margin-top: 5px;
-    color: #06283D;
+    margin-top: 15px;
+    margin-bottom: -20px;
+    color: #2b5d7c;
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
@@ -125,7 +126,7 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .weather-details .humidity, .weather-details .wind{
@@ -146,20 +147,20 @@ h1{
 }
 
 .weather-details i{
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 26px;
     margin-right: 10px;
     margin-top: 6px;
 }
 
 .weather-details span{
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 22px;
     font-weight: 500;
 }
 
 .weather-details p{
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 14px;
     font-weight: 500;
 }
@@ -178,7 +179,7 @@ h1{
 }
 
 .not-found p{
-    color: #06283D;
+    color: #2b5d7c;
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
