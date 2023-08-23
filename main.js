@@ -1,3 +1,6 @@
+// Need to add more features.
+// Redo some of the functions.
+
 const container = document.querySelector('.container');
 const searchButton = document.querySelector('.search-box button');
 const searchInput = document.getElementById('city-input');
