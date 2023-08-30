@@ -11,7 +11,9 @@ const error404 = document.querySelector('.not-found');
 function getWeather(city){
     const APIKey = '5266d465d6b6e2f2dc7fb2a7735e6b0c';
 
+    
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
+
 
     .then(response => response.json())
     .then(json => {
