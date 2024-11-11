@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
           return;
         }
 
-        error404.style.display = "none";
+        error404.style.display = "none"; 
         error404.classList.remove("fadeIn");
 
         const cityCountryElement = document.querySelector(".city-country");
