@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Weather Snap</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>Weather Snap</h1>
-    <br>
+    <br />
     <div class="container">
-        <div class="search-box">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="text" id="city-input" placeholder="Enter your City">
-            <button class="fa-solid fa-magnifying-glass"></button>
-        </div>
+      <div class="search-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" id="city-input" placeholder="Enter your City" />
+        <button class="fa-solid fa-magnifying-glass"></button>
+      </div>
 
-        <div class="not-found">
-            <img src="images/404.png">
-            <p>Can't Find City</p>
-        </div>
+      <div class="not-found">
+        <img src="images/404.png" />
+        <p>Can't Find City</p>
+      </div>
 
-        <div class="weather-box">
-            <p class="city-country"></p>
-            <img src="">
-            <p class="temperature"></p>
-            <p class="description"></p>
-        </div>
+      <div class="weather-box">
+        <p class="city-country"></p>
+        <img src="" />
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
 
-        <div class="weather-details">
-            <div class="humidity">
-                <i class="fa-solid fa-water"></i>
-                <div class="text">
-                    <span></span>
-                    <p>Humidity</p>
-                </div>
-            </div>
-            <div class="wind">
-                <i class="fa-solid fa-wind"></i>
-                <div class="text">
-                    <span></span>
-                    <p>Wind Speed</p>
-                </div>
-            </div>
+      <div class="weather-details">
+        <div class="humidity">
+          <i class="fa-solid fa-water"></i>
+          <div class="text">
+            <span></span>
+            <p>Humidity</p>
+          </div>
         </div>
-
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+          <div class="text">
+            <span></span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <script src="https://kit.fontawesome.com/677ee0dfe8.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://kit.fontawesome.com/677ee0dfe8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="config.js"></script>
     <script src="main.js"></script>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
