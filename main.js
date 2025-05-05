@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function getWeather(city, country) {
     const APIKey = config.WEATHER_API_KEY;
-    const location = country ? `${city},${country}` : city; // Use city, country if available
+    const location = country ? `${city},${country}` : city;
 
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${APIKey}`
